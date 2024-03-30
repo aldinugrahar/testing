@@ -5,8 +5,8 @@ import hashlib
 curve = ecdsa.SECP256k1
 
 
-start_private_key = int(input("Enter start private key: "), 16)
-end_private_key = int(input("Enter end private key: "), 16)
+start_private_key = int(input("Enter start private key: 20000000000000000"), 16)
+end_private_key = int(input("Enter end private key: 3ffffffffffffffff"), 16)
 
 output_file = "public_keys.txt"
 
